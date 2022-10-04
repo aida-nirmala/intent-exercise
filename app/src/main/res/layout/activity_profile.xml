@@ -104,7 +104,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/separator1"
-            tools:text="Jonathan Doe"
+            tools:text="Aida Nirmalasari"
             />
 
         <View
@@ -127,7 +127,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="Email"
+            android:text="Nim"
             android:textAlignment="textStart"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -136,7 +136,7 @@
             />
 
         <TextView
-            android:id="@+id/label_email"
+            android:id="@+id/label_Nim"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -147,7 +147,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/separator2"
-            tools:text="jonathan.designer@gmail.com"
+            tools:text="H1D020018"
             />
 
         <View
@@ -170,7 +170,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="Email"
+            android:text="Shift"
             android:textAlignment="textStart"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -190,7 +190,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/separator3"
-            tools:text="jonathan.designer.com"
+            tools:text="H"
             />
 
         <View
@@ -215,6 +215,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/btn_red_large"
             android:text="Visit My Homepage"
+            android:onClick="handleView"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
